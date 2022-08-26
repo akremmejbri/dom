@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3alouchi.tn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     <!-- website header -->
+     <header>
+       <p id="naaima">3alouchi <span>.Tn</span></p>
+       <div class="icons">
+            <i class="fa-solid fa-heart"></i>
+            <div class="item-basket">
+                <i onclick=show() class="fa-solid fa-basket-shopping"><h4></h4></i>
+                    <div id="item" class="item-shop" onclick=addone()>
+        
+    <div class="in-basket addbasket container">
+        <img class="img3alouch" src="sheep_PNG96503.png" alt="3alouche">
+        <div class="tilebasket">
+            <p>3alouch</p>
+            <p class="list-group-item totale-price">
+                <div class="row bg-info">
+                <p class="col-4" id="totale-price"></p>
+                </div>
+            </p>
+            
+            <div class="qte">
+                <p>Qté : </p>
+            </div>
+        </div>
+
+        <h2 class="title">List of Items :</h2>
+        <ul id="items" class="list-group">
+            <li id="parent" class="list-group-item-add">
+            <hr>
+            <div class="row">
+                <h3 class="col-4">Item One <span id="price"> 40 </span>Dt</h3>
+                <div class="col-1"><img id="heart" src="RES/heartNull.png" width="25px" height="25px"></div>
+                <button type="button" id="minus-button" style="margin-top: 5px; margin-bottom: 5px;"><h4>-</h4></button>
+                <div class="col-1"><h3 id="quantity">1</h3></div>
+                <button type="button" id="add-button" style="margin-top: 5px; margin-bottom: 5px;"><h4>+</h4></button>
+                <button type="button" id="delete" class=" offset-2 btn btn-danger">Delete<img class="pic" src="img/trash-can-solid.svg" alt="remove"></button>
+                <div class="select">
+		
+                </div>
+            </div>
+            <hr>
+            </li> 
+        </ul>
+    </div>
+    </div>
+
+    </div>
+            <img src="home.jpg" alt="">
+            <span>foulen fouleni</span>
+            <i class="fa-solid fa-arrow-right-from-bracket"></i>
+       </div>
+     </header>
+     <!--end of header-->
+     <!--main section-->
+     <section class="main">
+            <div class="side">
+                <p>
+                    <i class="fa-solid fa-filter"></i>
+                     Filter 
+                </p>
+                <div class="colors-filter">
+                    <p>pick color</p>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="brand">
+                    <span class="filter-title">Brand</span>
+                    <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Gharbi</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Houti</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">Sardi</label>
+                </div>
+                </div>
+                <div class="brand">
+                    <span class="filter-title">Price</span>
+                    <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">300-500</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">500-700</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">700-900</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="" id="">
+                    <label for="">900-1500</label>
+                </div>
+                </div>
+            </div>
+            
+
+            <div class="products">
+             <p>Product List <span>()</span></p>
+             <div class="products-items">
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>30kg sheep gharbi</p>
+                    <span>350dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>40kg sheep gharbi</p>
+                    <span>400dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> 
+                     Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>50kg sheep gharbi</p>
+                    <span>500dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>60kg sheep gharbi</p>
+                    <span>550dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>70kg sheep gharbi</p>
+                    <span>600dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>80kg sheep gharbi</p>
+                    <span>650dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>90kg sheep gharbi</p>
+                    <span>700dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>100kg sheep gharbi</p>
+                    <span>750dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+                <div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>110kg sheep gharbi</p>
+                    <span>800dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div><div class="item">
+                    <div>
+                        <i class="fa-solid fa-heart"></i>
+                    <img src="sheep_PNG96503.png" alt="">
+                </div>
+                    <p>120kg sheep gharbi</p>
+                    <span>900dt</span>
+                    <button class="des-boutons" type="button"><a href="#"><i class="fa-solid fa-basket-shopping"></i> Add to cart </a></button>
+                </div>
+             </div>
+            </div>
+            <div class="cart-total-item">
+                
+            </div>
+     </section>
+ 
+    </div>
+     <script src="3alouchi.js"></script>
+</body>
+</html>
